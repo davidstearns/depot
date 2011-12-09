@@ -17,7 +17,12 @@
         <dd><%= truncate(strip_tags(product.description), :length => 80) %></dd>
       </d1>
     </td>
-
+    <td>
+      <d1>
+        <dt><%= product.price %><dt>
+        <dd><%= product.price %></dd>
+      </d1>
+    </td>
     <td class="list_actions">
       <%= link_to 'Show', product %><br/>
       <%= link_to 'Edit', edit_product_path(product) %><br/>
