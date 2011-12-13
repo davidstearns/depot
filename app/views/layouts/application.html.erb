@@ -14,13 +14,22 @@
   </div>
   <div id="columns">
     <div id="side">
+      <div id="time">
+      <%= @date %> <%= @time %>
+      <p>
+ 
+      </div>
       <a href ...>Home</a><br />
       <a href ...>Questions</a><br />
       <a href ...>News</a><br />
       <a href ...>Contact</a><br />
+
     </div>
     <div id="main">
       <%= yield %>
+    </div>
+    <div id="footer">
+    This is a footer
     </div>
   </div>
 	</body>
