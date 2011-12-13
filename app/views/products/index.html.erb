@@ -19,9 +19,8 @@
     </td>
     <td>
       <d1>
-        <dt><%= product.price %><dt>
-        <dd><%= product.price %></dd>
-      </d1>
+        <dt><%= number_to_currency(product.price) %><dt>
+       </d1>
     </td>
     <td class="list_actions">
       <%= link_to 'Show', product %><br/>
